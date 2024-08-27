@@ -15,6 +15,6 @@ python inference.py --model='./model/model_lr-0.0003_bs-64_epoch-217.pkl' --inDi
 ```  
 
 2.classify
-# split
+# Split
 1. Perform one-dimensional linear clustering on the data, please referring to slic.py.
 2. According to the predicted results, the trajectory similarity is calculated with the test set to determine the viewpoint type.
